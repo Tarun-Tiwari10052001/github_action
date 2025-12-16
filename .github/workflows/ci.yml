@@ -7,6 +7,6 @@ jobs:
     checkout:
         runs-on: ubuntu-latest
         steps: 
-            - uses: ation/checkout@v4
+            - uses: actions/checkout@v4
             - run: ls
             - run: echo "checkout done"
